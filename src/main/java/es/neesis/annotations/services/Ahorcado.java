@@ -21,7 +21,7 @@ public class Ahorcado implements IAhorcado {
     public Ahorcado() {
         this.palabraAdivinar = elegirPalabra(this.palabras);
         this.estado = generarEstadoInicial(this.palabraAdivinar);
-        this.keyboard = new Scanner(System.in);
+        keyboard = new Scanner(System.in);
     }
 
     @Override
